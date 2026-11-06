@@ -1,0 +1,58 @@
+{
+  "project": "KrishiMitra - Karnataka AI Crop Advisor & Market Price Prediction System",
+  "state_restriction": "Karnataka, India ONLY",
+  "data_sources": [
+    {
+      "source_name": "AGMARKNET - Agricultural Marketing Information Network",
+      "source_agency": "Directorate of Marketing and Inspection (DMI), Ministry of Agriculture & Farmers Welfare, Government of India",
+      "source_url": "https://agmarknet.gov.in",
+      "data_description": "Daily arrivals and modal, minimum, maximum market prices across Agricultural Produce Market Committees (APMCs) in Karnataka",
+      "data_period": "2021-01-01 to 2026-03-31",
+      "download_date": "2026-03-30",
+      "license": "Government Open Data License - India (GODL-India)",
+      "state_filter": "Karnataka",
+      "commodity_coverage": "52 Karnataka agricultural and horticultural commodities",
+      "primary_target_field": "modal_price (INR/Quintal)"
+    },
+    {
+      "source_name": "Open Government Data (OGD) Platform India (data.gov.in)",
+      "source_agency": "National Informatics Centre (NIC) / Ministry of Electronics & IT",
+      "source_url": "https://data.gov.in/resource/current-daily-price-various-commodities-various-markets-mandi",
+      "data_description": "Standardized commodity market arrival and price feeds for Karnataka mandis",
+      "data_period": "2021 to 2026",
+      "download_date": "2026-03-30",
+      "license": "Open Government Data License - India",
+      "state_filter": "Karnataka"
+    },
+    {
+      "source_name": "Karnataka State Agricultural Marketing Board (KSAMB) - Krishi Marata Vahini",
+      "source_agency": "Department of Agricultural Marketing, Government of Karnataka",
+      "source_url": "https://krishimaratavahini.kar.nic.in",
+      "data_description": "Karnataka district-wise APMC daily market reports, grade specifications, and arrivals",
+      "data_period": "2021-2026",
+      "download_date": "2026-03-30",
+      "license": "Official Karnataka State Portal",
+      "state_filter": "Karnataka"
+    },
+    {
+      "source_name": "Directorate of Economics & Statistics, Government of Karnataka",
+      "source_agency": "Department of Agriculture, Government of Karnataka",
+      "source_url": "https://des.karnataka.gov.in",
+      "data_description": "Karnataka Agro-climatic zones, district-wise soil classification (Red, Black, Laterite, Coastal Alluvium), and crop suitability indices",
+      "data_period": "2020-2025 Comprehensive Agro-Census",
+      "download_date": "2026-03-30",
+      "license": "Government Statistical Publication",
+      "state_filter": "Karnataka"
+    },
+    {
+      "source_name": "India Meteorological Department (IMD) & KSNDMC",
+      "source_agency": "Karnataka State Natural Disaster Monitoring Centre / IMD Bengaluru",
+      "source_url": "https://www.ksndmc.org / https://mausam.imd.gov.in",
+      "data_description": "District agro-meteorological records (temperature, rainfall, humidity) for Karnataka agro-climatic zones",
+      "data_period": "2021-2026",
+      "download_date": "2026-03-30",
+      "license": "Public Meteorological Data",
+      "state_filter": "Karnataka"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "numeric_features": [
+    "modal_price",
+    "min_price",
+    "max_price",
+    "arrival_quantity",
+    "price_lag_1",
+    "price_lag_3",
+    "price_lag_7",
+    "price_lag_14",
+    "price_lag_30",
+    "rolling_mean_7",
+    "rolling_mean_14",
+    "rolling_mean_30",
+    "rolling_std_7",
+    "rolling_std_30",
+    "arrival_lag_7",
+    "arrival_rolling_mean_7",
+    "arrival_change_7",
+    "price_change_1d",
+    "price_change_7d",
+    "price_change_30d",
+    "month",
+    "day_of_week",
+    "quarter"
+  ],
+  "categorical_features": [
+    "commodity",
+    "market",
+    "season"
+  ],
+  "target_tomorrow": "target_price_tomorrow",
+  "target_7d": "target_price_7d"
+}

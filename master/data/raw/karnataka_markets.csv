@@ -1,0 +1,34 @@
+market_id,market_name,district,division
+1,Mysuru APMC (Bandipalya),Mysuru,Mysuru
+2,Mandya APMC,Mandya,Mysuru
+3,Kolar APMC,Kolar,Bengaluru
+4,Chikkaballapura APMC,Chikkaballapura,Bengaluru
+5,Yeshwanthpur APMC (Bengaluru),Bengaluru Urban,Bengaluru
+6,Binny Mill Market (Bengaluru),Bengaluru Urban,Bengaluru
+7,Davanagere APMC,Davanagere,Bengaluru
+8,Hassan APMC,Hassan,Mysuru
+9,Shivamogga APMC,Shivamogga,Bengaluru
+10,Sagar APMC,Shivamogga,Bengaluru
+11,Belagavi APMC,Belagavi,Belagavi
+12,Hubballi APMC (Amargol),Dharwad,Belagavi
+13,Dharwad APMC,Dharwad,Belagavi
+14,Byadagi APMC,Haveri,Belagavi
+15,Haveri APMC,Haveri,Belagavi
+16,Chitradurga APMC,Chitradurga,Bengaluru
+17,Tumakuru APMC,Tumakuru,Bengaluru
+18,Tiptur APMC,Tumakuru,Bengaluru
+19,Kalaburagi APMC,Kalaburagi,Kalaburagi
+20,Raichur APMC,Raichur,Kalaburagi
+21,Ballari APMC,Ballari,Kalaburagi
+22,Koppal APMC,Koppal,Kalaburagi
+23,Vijayapura APMC,Vijayapura,Belagavi
+24,Bagalkote APMC,Bagalkote,Belagavi
+25,Gadag APMC,Gadag,Belagavi
+26,Bidar APMC,Bidar,Kalaburagi
+27,Chamarajanagar APMC,Chamarajanagar,Mysuru
+28,Ramanagara APMC,Ramanagara,Bengaluru
+29,Mangaluru APMC,Dakshina Kannada,Mysuru
+30,Udupi APMC,Udupi,Mysuru
+31,Sirsi APMC,Uttara Kannada,Belagavi
+32,Madikeri APMC,Kodagu,Mysuru
+33,Chikkamagaluru APMC,Chikkamagaluru,Mysuru

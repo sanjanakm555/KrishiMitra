@@ -1,0 +1,67 @@
+{
+  "target": "modal_price (7-Day Forecast & Tomorrow Forecast)",
+  "split": "Chronological (Train: 2021-2024, Test: 2025-2026)",
+  "ensemble_paradigm": "Bagging, Boosting, Weighted Voting, and Meta-Stacking Ensembles",
+  "best_ensemble_model": "Stacking Ensemble (Meta-Learner)",
+  "models_evaluated": [
+    {
+      "model_name": "Random Forest (Bagging)",
+      "ensemble_type": "Bagging",
+      "mae": 1101.06,
+      "mse": 13018640.11,
+      "rmse": 3608.14,
+      "r2": 0.988,
+      "mape": 9.26
+    },
+    {
+      "model_name": "Extra Trees (Bagging)",
+      "ensemble_type": "Bagging",
+      "mae": 1107.06,
+      "mse": 13090656.55,
+      "rmse": 3618.1,
+      "r2": 0.988,
+      "mape": 9.18
+    },
+    {
+      "model_name": "Gradient Boosting (Boosting)",
+      "ensemble_type": "Boosting",
+      "mae": 1101.34,
+      "mse": 13168711.92,
+      "rmse": 3628.87,
+      "r2": 0.9879,
+      "mape": 9.47
+    },
+    {
+      "model_name": "XGBoost (Extreme Gradient Boosting)",
+      "ensemble_type": "Boosting",
+      "mae": 1087.76,
+      "mse": 13028577.79,
+      "rmse": 3609.51,
+      "r2": 0.988,
+      "mape": 9.37
+    },
+    {
+      "model_name": "Voting Ensemble (RF + ET + XGB)",
+      "ensemble_type": "Meta-Ensemble",
+      "mae": 1086.22,
+      "mse": 12863720.39,
+      "rmse": 3586.6,
+      "r2": 0.9882,
+      "mape": 9.22
+    },
+    {
+      "model_name": "Stacking Ensemble (Meta-Learner)",
+      "ensemble_type": "Meta-Ensemble",
+      "mae": 1092.24,
+      "mse": 11062001.98,
+      "rmse": 3325.96,
+      "r2": 0.9898,
+      "mape": 9.83
+    }
+  ],
+  "tomorrow_metrics": {
+    "mae": 1072.7,
+    "rmse": 3540.75,
+    "r2": 0.9885
+  }
+}

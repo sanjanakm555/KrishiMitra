@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: krishimitra_backend
+    restart: always
+    environment:
+      - APP_ENV=production
+      - PORT=8000
+      - DATABASE_URL=sqlite:///./krishimitra.db
+      - SECRET_KEY=krishimitra_super_secret_jwt_key_karnataka_2026_aiml
+      - SMS_PROVIDER=mock_gateway
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: krishimitra_frontend
+    restart: always
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
