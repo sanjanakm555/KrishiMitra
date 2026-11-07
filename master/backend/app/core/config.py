@@ -26,11 +26,12 @@ class Settings(BaseSettings):
     MODELS_DIR: str = os.path.join(BASE_DIR, "models")
     DATA_RAW_DIR: str = os.path.join(BASE_DIR, "data", "raw")
     
-    # SMS & Alert configuration
-    SMS_ENABLED: bool = True
-    SMS_PROVIDER: str = os.getenv("SMS_PROVIDER", "mock_gateway")
-    SMS_SENDER_ID: str = "KMITRA"
-
+ # SMS & Alert Configuration
+SMS_ENABLED: bool = True
+SMS_PROVIDER: str = os.getenv("SMS_PROVIDER", "fast2sms")
+SMS_API_KEY: str = os.getenv("FAST2SMS_API_KEY", "")
+SMS_SENDER_ID: str = "KMITRA"
+SMS_TEMPLATE_ID: str = os.getenv("SMS_TEMPLATE_ID", "")
     class Config:
         case_sensitive = True
 
